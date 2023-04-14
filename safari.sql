@@ -37,11 +37,18 @@ INSERT INTO employees (name, employee_number) VALUES ('Joe', 98723);
 INSERT INTO employees (name, employee_number) VALUES ('Anna', 67752);
 INSERT INTO employees (name, employee_number) VALUES ('Phil', 77762);
 INSERT INTO employees (name, employee_number) VALUES ('Iain', 37845);
+-- 
+INSERT INTO employees (name, employee_number) VALUES ('Zsolt', 78903);
+INSERT INTO employees (name, employee_number) VALUES ('Ed', 37894);
+INSERT INTO employees (name, employee_number) VALUES ('Richard', 10983);
+
 
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Big Cat Field', 20, FALSE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Reptile House', 30, FALSE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Petting Zoo', 10, TRUE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Bird Cage', 50, FALSE);
+-- 
+INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Primate Enclosure', 40, FALSE);
 
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Leo', 'Lion', 12, 1);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Polly', 'Parrot', 21, 4);
@@ -58,6 +65,16 @@ INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Nigel', 'Newt', 3, 
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Naomi', 'Newt', 3, 2);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Harry', 'Hamster', 1, 3);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Terry', 'Tiger', 17, 1);
+-- 
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('George', 'Gorilla', 4, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Opal', 'Orangutan', 6, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Bartholemew', 'Baboon', 2, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Penelope', 'Puma', 9, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Larry', 'Lizard', 1, 2);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Piglet', 'Piglet', 5, 3);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Esther', 'Eagle', 3, 4);
+
+
 
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 2, 'Monday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Wednesday');
@@ -70,3 +87,16 @@ INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 2, 'Wednesda
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 1, 'Monday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 4, 'Friday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Saturday');
+
+-- 
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (7, 5, 'Sunday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (7, 2, 'Thursday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (7, 1, 'Monday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (8, 5, 'Wednesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (8, 3, 'Tuesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (8, 2, 'Friday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (9, 4, 'Tuesday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (9, 3, 'Sunday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (9, 5, 'Saturday');
+
+
