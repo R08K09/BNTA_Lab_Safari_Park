@@ -63,8 +63,7 @@ WHERE animals.enclosure_id = (
     SELECT enclosures.id FROM enclosures
     INNER JOIN animals
     ON enclosures.id = animals.enclosure_id
-    WHERE animals.name = 'Terry'
-)
+    WHERE animals.name = 'Terry')
 AND animals.name != 'Terry';
 
 
