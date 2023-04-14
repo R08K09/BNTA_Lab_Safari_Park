@@ -73,7 +73,8 @@ AND animals.name != 'Terry';
 -- SELECT DISTINCT animals.name FROM animals
 -- INNER JOIN enclosures
 -- ON enclosures.id = animals.enclosure_id
--- WHERE enclosures.id = 1;
+-- WHERE enclosures.id = 1
+-- AND animals.name != 'Terry';
 
 
 
